@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Wheel
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Wheel\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=name\ radius
+comment1.target=Wheel(java.lang.String,\ float)
+comment2.params=
+comment2.target=float\ getWheelRadius()
+comment3.params=
+comment3.target=double\ getWheelCircumference()
+comment4.params=turns
+comment4.target=double\ turn(double)
+comment5.params=distance
+comment5.target=double\ turnsRequired(double)
+numComments=6
