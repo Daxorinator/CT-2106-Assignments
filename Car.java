@@ -23,22 +23,21 @@ public class Car
     // We also don't siphon fuel around these parts.
     private double fuelTank = 0.00d;
     
-    // Car constructor builds a car based on name, distance required, an engine, wheels and a fuel tank size.
-    // These can all be modified later by setter functions and private variables retrieved with respective getters.
-    public Car(String name, double distance)
+    // Car constructor builds a car with a given name.
+    public Car(String name)
     {
         this.carName = name;
-        this.tripOdometer = distance;
-        this.engine = engine;
-        this.wheel = wheel;
     }
     
+    // Sets the tripOdometer variable to the distance travelled in the last trip
+    // Adds this value to the mileage and then empties the fuel tank
     public void drive() {
         tripOdometer = engine.run(fuelTank, wheel);
         mileage += tripOdometer;
         fuelTank = 0.00d;
     }
     
+    // Prints all current known information about the car, including Engine and Wheel information.
     public void printState() {
         System.out.printf("Configuration: \n");
         

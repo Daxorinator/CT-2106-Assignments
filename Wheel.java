@@ -1,9 +1,7 @@
 
 /**
- * Write a description of class Wheel here.
- *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Seán Kelly (21421506)
+ * @version 0.1.0
  */
 public class Wheel
 {
@@ -16,21 +14,27 @@ public class Wheel
     public Wheel(String name, float radius) {
         this.name = name;
         this.wheelRadius = radius;
+        
+        // Calculate the wheel circumference based on the circumference formula
         this.wheelCircumference = 2 * Math.PI * wheelRadius;
     }
     
+    // Returns the wheel radius class variable
     public float getWheelRadius() {
         return this.wheelRadius;
     }
     
+    // Returns the wheel circumference class variable
     public double getWheelCircumference() {
         return this.wheelCircumference;
     }
     
+    // Returns the distance travelled by the wheel in X turns
     public double turn(double turns) {
         return turns * wheelCircumference;
     }
     
+    // Returns the number of turns required to travel a distance
     public double turnsRequired(double distance) {
         return distance / wheelCircumference;
     }

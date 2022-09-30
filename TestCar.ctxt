@@ -1,6 +1,12 @@
 #BlueJ class context
 comment0.target=TestCar
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ TestCar\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment0.text=\r\n\ @author\ Se\u00E1n\ Kelly\ (21421506)\r\n\ @version\ 0.1.0\r\n
 comment1.params=args
 comment1.target=void\ Main(java.lang.String[])
-numComments=2
+comment2.params=
+comment2.target=void\ testSuiteOne()
+comment3.params=
+comment3.target=void\ testSuiteTwo()
+comment4.params=
+comment4.target=void\ testSuiteThree()
+numComments=5
